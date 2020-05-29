@@ -99,7 +99,7 @@ function App() {
               My name is Harshil Patel. 
               </Typography>
               <Typography variant="subtitle1" gutterBottom>
-              The moment I wrote the first line of code in C , it got me hooked to the world of programming.
+              The moment I wrote the first line of code in Javascript , it got me hooked to the world of programming.
               </Typography>
               <Typography variant="subtitle1" gutterBottom>
               I am a Full Stack Web Developer building cool apps using React, Material-Ui, Express and MongoDb.
