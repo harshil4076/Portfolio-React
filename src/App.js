@@ -162,7 +162,7 @@ function App() {
                 </Typography>
               </CardContent>
               <CardActions className={classes.cardAction} disableSpacing>
-                <Link href="https://github.com/harshil4076/carstack-client" target="_blank">
+                <Link href="https://github.com/harshil4076/car-stack-client" target="_blank">
                   <IconButton aria-label="github link">
                       <CodeIcon />
                     </IconButton>
