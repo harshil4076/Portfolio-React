@@ -14,6 +14,8 @@ import Link from '@material-ui/core/Link';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import DescriptionIcon from '@material-ui/icons/Description';
+import Breadcrumbs from '@material-ui/core/Breadcrumbs';
+import Popover from '@material-ui/core/Popover';
 import './App.css';
 import patel from './images/profile/patel.jpg';
 import hkphoto from './images/hkphotography.png'
@@ -61,6 +63,15 @@ const useStyles = makeStyles(theme => ({
     height: 0,
     paddingTop: '56.25%', // 16:9
   },
+  breadcrumbs:{
+    padding: "20px",
+  },
+  popover: {
+    pointerEvents: 'none',
+  },
+  paper: {
+    padding: theme.spacing(1),
+  },
 }))
 
 function App() {
@@ -99,7 +110,7 @@ function App() {
               My name is Harshil Patel. 
               </Typography>
               <Typography variant="subtitle1" gutterBottom>
-              The moment I wrote the first line of code in Javascript , it got me hooked to the world of programming.
+              The moment I wrote the first line of code in Javascript, it got me hooked to the world of programming.
               </Typography>
               <Typography variant="subtitle1" gutterBottom>
               I am a Full Stack Web Developer building cool apps using React, Material-Ui, Express and MongoDb.
@@ -156,7 +167,7 @@ function App() {
                 <Typography variant="body2" color="textSecondary" component="p">
                   This project is built with React and material Ui.
                   Redux for managing state.
-                  it is a Car Trader app. User can sign up , Post Ads and trade cars.
+                  it is a Car Trader app. User can sign up, Post Ads and trade cars.
                   It uses a custom Api built with Express and Mongo Db.
                   It is deployed on carstack.ca.
                 </Typography>
@@ -164,7 +175,7 @@ function App() {
               <CardActions className={classes.cardAction} disableSpacing>
                 <Link href="https://github.com/harshil4076/car-stack-client" target="_blank">
                   <IconButton aria-label="github link">
-                      <CodeIcon />
+                      <GitHubIcon />
                     </IconButton>
                 </Link>
                 <Link href="http://www.carstack.ca" target="_blank">
@@ -204,7 +215,7 @@ function App() {
               <CardActions className={classes.cardAction} disableSpacing>
               <Link href="https://github.com/harshil4076/photography" target="_blank">
                   <IconButton aria-label="github link">
-                    <CodeIcon />
+                  <GitHubIcon />
                   </IconButton>
                </Link>   
                 <Link href="https://sleepy-badlands-38091.herokuapp.com/" target="_blank">
@@ -246,7 +257,7 @@ function App() {
               <CardActions className={classes.cardAction} disableSpacing>
               <Link href="https://github.com/harshil4076/restaurant-finder" target="_blank">
                   <IconButton aria-label="github link">
-                    <CodeIcon />
+                  <GitHubIcon />
                   </IconButton>
               </Link>
               <Link href="https://sharp-swirles-b5d892.netlify.app/" target="_blank">
@@ -257,7 +268,21 @@ function App() {
               </CardActions>
             </Card>
             </Grid>
+            <Grid
+              container
+              direction="row"
+            justify="center"
+            alignItems="center"
+            >
+                    <Breadcrumbs className={classes.breadcrumbs}>
+                      <Typography>
+                        harshil4076@gmail.com
+                      </Typography>
+                      
+                   </Breadcrumbs>
+            </Grid>
       </Grid>
+
     </div>
   );
 }
