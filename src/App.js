@@ -120,17 +120,17 @@ function App() {
               </Typography>
               <Link href="https://github.com/harshil4076/" target="_blank">
                   <IconButton aria-label="github link">
-                      <GitHubIcon />
+                      <GitHubIcon fontSize='large' />
                     </IconButton>
               </Link>
                 <Link href="https://www.linkedin.com/in/harshil-patel-5157bb14a/" target="_blank">
                   <IconButton aria-label="Linkedin">
-                      <LinkedInIcon />
+                      <LinkedInIcon fontSize='large' />
                     </IconButton>
                 </Link>
                 <Link href="https://docs.google.com/document/d/1hcZHYn6oCEKppzPLOLlAkdExIWqSxa7DN1B8l6-RxPc/edit?usp=sharing" target="_blank">
                   <IconButton aria-label="Resume">
-                      <DescriptionIcon />
+                      <DescriptionIcon fontSize='large' />
                     </IconButton>
                 </Link>
           </Grid>
@@ -175,12 +175,12 @@ function App() {
               <CardActions className={classes.cardAction} disableSpacing>
                 <Link href="https://github.com/harshil4076/car-stack-client" target="_blank">
                   <IconButton aria-label="github link">
-                      <GitHubIcon />
+                      <GitHubIcon  fontSize='large' />
                     </IconButton>
                 </Link>
                 <Link href="http://www.carstack.ca" target="_blank">
                   <IconButton aria-label="view app">
-                    <LinkIcon />
+                    <LinkIcon fontSize='large' />
                   </IconButton>
                   </Link>
               </CardActions>
@@ -215,12 +215,12 @@ function App() {
               <CardActions className={classes.cardAction} disableSpacing>
               <Link href="https://github.com/harshil4076/photography" target="_blank">
                   <IconButton aria-label="github link">
-                  <GitHubIcon />
+                  <GitHubIcon fontSize='large' />
                   </IconButton>
                </Link>   
                 <Link href="https://sleepy-badlands-38091.herokuapp.com/" target="_blank">
                   <IconButton aria-label="view app">
-                    <LinkIcon />
+                    <LinkIcon fontSize='large' />
                   </IconButton>
                 </Link>
               </CardActions>
@@ -257,12 +257,12 @@ function App() {
               <CardActions className={classes.cardAction} disableSpacing>
               <Link href="https://github.com/harshil4076/restaurant-finder" target="_blank">
                   <IconButton aria-label="github link">
-                  <GitHubIcon />
+                  <GitHubIcon fontSize='large' />
                   </IconButton>
               </Link>
               <Link href="https://sharp-swirles-b5d892.netlify.app/" target="_blank">
                   <IconButton aria-label="view app">
-                    <LinkIcon />
+                    <LinkIcon fontSize='large' />
                   </IconButton>
               </Link>
               </CardActions>
